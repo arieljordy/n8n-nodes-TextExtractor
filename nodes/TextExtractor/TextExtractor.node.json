@@ -1,0 +1,14 @@
+{
+	"node": "n8n-nodes-textextractor.textExtractor",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Data & Storage"],
+	"resources": {
+		"primaryDocumentation": [
+			{
+				"url": ""
+			}
+		]
+	},
+	"alias": ["OCR", "PDF", "text", "extract", "document", "image", "DOCX", "DOC"]
+}
