@@ -1,63 +1,64 @@
 {
-	"name": "n8n-nodes-textextractor",
-	"version": "0.1.0",
-	"description": "n8n node to extract text from images (OCR), PDFs, DOCX, DOC, and TXT files",
-	"license": "MIT",
-	"homepage": "",
-	"keywords": [
-		"n8n-community-node-package",
-		"OCR",
-		"PDF",
-		"text-extraction",
-		"DOCX",
-		"DOC",
-		"tesseract",
-		"document"
-	],
-	"author": {
-		"name": "jordy Ellangmane",
-		"email": "jordyellangmane50@gmail.com"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/arieljordy/n8n-nodes-TextExtractor.git"
-	},
-	"scripts": {
-		"build": "n8n-node build",
-		"build:watch": "tsc --watch",
-		"dev": "n8n-node dev",
-		"lint": "n8n-node lint",
-		"lint:fix": "n8n-node lint --fix",
-		"release": "n8n-node release",
-		"prepublishOnly": "n8n-node prerelease"
-	},
-	"files": [
-		"dist"
-	],
-	"n8n": {
-		"n8nNodesApiVersion": 1,
-		"strict": false,
-		"credentials": [],
-		"nodes": [
-			"dist/nodes/TextExtractor/TextExtractor.node.js"
-		]
-	},
-	"dependencies": {
-		"mammoth": "^1.8.0",
-		"pdf-to-png-converter": "^3.6.0",
-		"sharp": "^0.33.0",
-		"tesseract.js": "^5.1.1",
-		"unpdf": "^0.12.0",
-		"word-extractor": "^1.0.4"
-	},
-	"devDependencies": {
-		"@n8n/node-cli": "*",
-		"eslint": "9.32.0",
-		"prettier": "3.6.2",
-		"release-it": "^19.0.4",
-		"typescript": "5.9.2"
-	},
-	"peerDependencies": {
-		"n8n-workflow": "*"
-	}
+  "name": "n8n-nodes-textextractor",
+  "version": "0.1.0",
+  "description": "n8n node to extract text from images (OCR), PDFs, DOCX, DOC, and TXT files",
+  "license": "MIT",
+  "homepage": "",
+  "keywords": [
+    "n8n-community-node-package",
+    "image",
+    "OCR",
+    "PDF",
+    "text-extraction",
+    "DOCX",
+    "DOC",
+    "tesseract",
+    "document"
+  ],
+  "author": {
+    "name": "jordy Ellangmane",
+    "email": "jordyellangmane50@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arieljordy/n8n-nodes-TextExtractor.git"
+  },
+  "scripts": {
+    "build": "n8n-node build",
+    "build:watch": "tsc --watch",
+    "dev": "n8n-node dev",
+    "lint": "n8n-node lint",
+    "lint:fix": "n8n-node lint --fix",
+    "release": "n8n-node release",
+    "prepublishOnly": "n8n-node prerelease"
+  },
+  "files": [
+    "dist"
+  ],
+  "n8n": {
+    "n8nNodesApiVersion": 1,
+    "strict": false,
+    "credentials": [],
+    "nodes": [
+      "dist/nodes/TextExtractor/TextExtractor.node.js"
+    ]
+  },
+  "dependencies": {
+    "mammoth": "^1.8.0",
+    "pdf-to-png-converter": "^3.6.0",
+    "sharp": "^0.33.0",
+    "tesseract.js": "^5.1.1",
+    "unpdf": "^0.12.0",
+    "word-extractor": "^1.0.4"
+  },
+  "devDependencies": {
+    "@n8n/node-cli": "*",
+    "eslint": "9.32.0",
+    "prettier": "3.6.2",
+    "release-it": "^19.0.4",
+    "typescript": "5.9.2"
+  },
+  "peerDependencies": {
+    "n8n-workflow": "*"
+  }
 }
