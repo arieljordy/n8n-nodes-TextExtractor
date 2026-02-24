@@ -201,14 +201,14 @@ Get your node verified for n8n Cloud:
 
 This starter includes several npm scripts to streamline development:
 
-| Script                | Description                                                      |
-| --------------------- | ---------------------------------------------------------------- |
-| `npm run dev`         | Start n8n with your node and watch for changes (runs `n8n-node dev`) |
-| `npm run build`       | Compile TypeScript to JavaScript for production (runs `n8n-node build`) |
-| `npm run build:watch` | Build in watch mode (auto-rebuild on changes)                    |
-| `npm run lint`        | Check your code for errors and style issues (runs `n8n-node lint`) |
+| Script                | Description                                                                 |
+| --------------------- | --------------------------------------------------------------------------- |
+| `npm run dev`         | Start n8n with your node and watch for changes (runs `n8n-node dev`)        |
+| `npm run build`       | Compile TypeScript to JavaScript for production (runs `n8n-node build`)     |
+| `npm run build:watch` | Build in watch mode (auto-rebuild on changes)                               |
+| `npm run lint`        | Check your code for errors and style issues (runs `n8n-node lint`)          |
 | `npm run lint:fix`    | Automatically fix linting issues when possible (runs `n8n-node lint --fix`) |
-| `npm run release`     | Create a new release (runs `n8n-node release`)                   |
+| `npm run release`     | Create a new release (runs `n8n-node release`)                              |
 
 > [!TIP]
 > These scripts use the [@n8n/node-cli](https://www.npmjs.com/package/@n8n/node-cli) under the hood. You can also run CLI commands directly, e.g., `npx n8n-node dev`.
